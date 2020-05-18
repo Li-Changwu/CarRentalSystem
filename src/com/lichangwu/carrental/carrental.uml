@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lichangwu.carrental</OriginalElement>
+  <nodes>
+    <node x="755.0" y="0.0">com.lichangwu.carrental.CarRentalSystem</node>
+    <node x="223.0" y="398.0">com.lichangwu.carrental.Pickup</node>
+    <node x="254.5" y="0.0">com.lichangwu.carrental.BaseCar</node>
+    <node x="0.0" y="722.0">com.lichangwu.carrental.Main</node>
+    <node x="490.0" y="432.5">com.lichangwu.carrental.Trunk</node>
+    <node x="0.0" y="432.5">com.lichangwu.carrental.Bus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lichangwu.carrental.Bus" target="com.lichangwu.carrental.BaseCar">
+      <point x="0.0" y="-105.0" />
+      <point x="101.5" y="373.0" />
+      <point x="285.1666666666667" y="373.0" />
+      <point x="-61.333333333333314" y="174.0" />
+    </edge>
+    <edge source="com.lichangwu.carrental.Pickup" target="com.lichangwu.carrental.BaseCar">
+      <point x="0.0" y="-139.5" />
+      <point x="0.0" y="174.0" />
+    </edge>
+    <edge source="com.lichangwu.carrental.Trunk" target="com.lichangwu.carrental.BaseCar">
+      <point x="0.0" y="-105.0" />
+      <point x="600.0" y="373.0" />
+      <point x="407.83333333333337" y="373.0" />
+      <point x="61.33333333333337" y="174.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7220843672456576" x="327.0" y="384.0" />
+  <SelectedNodes>
+    <node>com.lichangwu.carrental.CarRentalSystem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
